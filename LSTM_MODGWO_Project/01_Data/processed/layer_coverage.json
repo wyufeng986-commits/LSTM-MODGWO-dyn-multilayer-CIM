@@ -1,0 +1,46 @@
+{
+  "available": [
+    "calls",
+    "sms",
+    "bt",
+    "fb_friends"
+  ],
+  "coverage": {
+    "calls": {
+      "n_active_nodes": 536,
+      "n_edges_total": 2193,
+      "n_snapshots_nonempty": 28,
+      "directed_raw": true,
+      "dynamic": true,
+      "role": "main",
+      "weight_mode": "count"
+    },
+    "sms": {
+      "n_active_nodes": 568,
+      "n_edges_total": 4973,
+      "n_snapshots_nonempty": 28,
+      "directed_raw": true,
+      "dynamic": true,
+      "role": "main",
+      "weight_mode": "count"
+    },
+    "bt": {
+      "n_active_nodes": 692,
+      "n_edges_total": 377942,
+      "n_snapshots_nonempty": 28,
+      "directed_raw": false,
+      "dynamic": true,
+      "role": "main",
+      "weight_mode": "scan_count"
+    },
+    "fb_friends": {
+      "n_active_nodes": 800,
+      "n_edges_total": 359408,
+      "n_snapshots_nonempty": 28,
+      "directed_raw": false,
+      "dynamic": false,
+      "role": "static_ablation",
+      "weight_mode": "count"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+layer,role,dynamic,mean_edges,max_edges,nonempty_days,mean_density
+calls,main,1,78.321,183,28,0.00011166
+sms,main,1,177.607,262,28,0.00025322
+bt,main,1,13497.929,27700,28,0.01924410
+fb_friends,static_ablation,0,12836.000,12836,28,0.01830039

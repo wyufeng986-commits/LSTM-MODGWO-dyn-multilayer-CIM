@@ -1,0 +1,27 @@
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# --- MATLAB / Python junk ---
+*.asv
+*.m~
+*.mex*
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# --- Raw CNS downloads (large / regenerable) ---
+LSTM_MODGWO_Project/01_Data/raw/
+
+# --- Optional local caches ---
+**/tmp/
+**/temp/
+*.tmp
+
+# --- Keep processed data, models, and results tracked ---
+# (CNS_daily_multilayer.mat and residual LSTM model are required for remote runs)
