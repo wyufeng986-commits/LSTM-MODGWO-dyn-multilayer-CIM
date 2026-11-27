@@ -1,0 +1,48 @@
+============================================================
+ Stage-5 formal MODGWO
+ runId : stage5_modgwo_medium_p20_i20_k5_hybrid_20261127_174700
+ root  : E:\多重网络研究\LSTM-MODGWO-dyn-multilayer-CIM\LSTM_MODGWO_Project
+============================================================
+              preset: 'medium'
+            evalMode: 'hybrid'
+                  kA: 5
+                  kB: 5
+                beta: 1
+             rngSeed: 20261127
+        finalCorrect: 1
+    localSearchTries: 3
+     localSearchProb: 0.3500
+          leaderBeta: 4
+        lstmModelRel: '03_LSTM\models\model_lstm_resid_h4.mat'
+                note: 'Intermediate remote dry-run.'
+             popSize: 20
+             maxIter: 20
+         archiveSize: 40
+              R_fast: 4
+             R_final: 20
+        correctEvery: 4
+         estPopIters: 400
+                 tag: 'medium_p20_i20_k5_hybrid'
+         ProjectRoot: 'E:\多重网络研究\LSTM-MODGWO-dyn-multilayer-CIM\LSTM_MODGWO_Project'
+
+MATLAB 9.11.0.1769968 (R2021b) | DeepLearning=1 | Stats=1
+Preflight OK.
+Loaded Network: N=838 L=4 T=28
+Loaded LSTM: E:\多重网络研究\LSTM-MODGWO-dyn-multilayer-CIM\LSTM_MODGWO_Project\03_LSTM\models\model_lstm_resid_h4.mat (residual=1, r=4, feat=28)
+S_B = [101 553 53 477 402]
+Start optimization at 27-Nov-2026 17:47:04
+LSTM-MODGWO start: pop=20 iter=20 k=5 mode=hybrid archive=40
+  iter   4/20 | archive=11 | maxFA=439.40 | minCost=0.875 | eval=302 | 16.9s
+  iter   8/20 | archive=12 | maxFA=439.40 | minCost=0.875 | eval=527 | 31.6s
+  iter  12/20 | archive=9 | maxFA=464.18 | minCost=0.875 | eval=767 | 45.3s
+  iter  16/20 | archive=9 | maxFA=464.18 | minCost=0.875 | eval=1039 | 60.1s
+  iter  20/20 | archive=9 | maxFA=464.18 | minCost=0.875 | eval=1272 | 73.7s
+LSTM-MODGWO done: archive=6 maxFA=324.00 minCost=0.875 (75.6s)
+Optimization wall time: 94.9 s (1.58 min)
+
+=== Formal run finished ===
+archive=6  maxFA=324.0000  minCost=0.8750  meanFA=162.6833
+nEval=1281  wall=94.9s
+MAT : E:\多重网络研究\LSTM-MODGWO-dyn-multilayer-CIM\LSTM_MODGWO_Project\06_Results\logs\stage5_modgwo_medium_p20_i20_k5_hybrid_20261127_174700.mat
+CSV : E:\多重网络研究\LSTM-MODGWO-dyn-multilayer-CIM\LSTM_MODGWO_Project\06_Results\tables\stage5_modgwo_medium_p20_i20_k5_hybrid_20261127_174700_archive.csv
+LOG : E:\多重网络研究\LSTM-MODGWO-dyn-multilayer-CIM\LSTM_MODGWO_Project\06_Results\logs\stage5_modgwo_medium_p20_i20_k5_hybrid_20261127_174700.diary.txt

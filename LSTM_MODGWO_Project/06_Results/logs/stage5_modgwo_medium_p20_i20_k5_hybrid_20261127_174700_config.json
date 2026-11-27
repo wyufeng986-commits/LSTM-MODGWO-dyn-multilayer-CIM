@@ -1,0 +1,18 @@
+{
+  "runId": "stage5_modgwo_medium_p20_i20_k5_hybrid_20261127_174700",
+  "preset": "medium",
+  "tag": "medium_p20_i20_k5_hybrid",
+  "evalMode": "hybrid",
+  "popSize": 20,
+  "maxIter": 20,
+  "archiveSize": 40,
+  "kA": 5,
+  "kB": 5,
+  "R_fast": 4,
+  "R_final": 20,
+  "correctEvery": 4,
+  "beta": 1,
+  "rngSeed": 20261127,
+  "finalCorrect": true,
+  "note": "Intermediate remote dry-run."
+}
