@@ -1,0 +1,18 @@
+{
+  "runId": "stage5_modgwo_formal_p50_i50_k5_hybrid_20261127_181519",
+  "preset": "formal",
+  "tag": "formal_p50_i50_k5_hybrid",
+  "evalMode": "hybrid",
+  "popSize": 50,
+  "maxIter": 50,
+  "archiveSize": 100,
+  "kA": 5,
+  "kB": 5,
+  "R_fast": 5,
+  "R_final": 50,
+  "correctEvery": 5,
+  "beta": 1,
+  "rngSeed": 20261127,
+  "finalCorrect": true,
+  "note": "Default formal hybrid. kA=kB=5 matches residual LSTM training. Do NOT use k~0.05N with current LSTM without retraining."
+}

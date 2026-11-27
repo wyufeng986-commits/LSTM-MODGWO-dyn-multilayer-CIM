@@ -1,0 +1,48 @@
+============================================================
+ Stage-5 formal MODGWO
+ runId : stage5_modgwo_formal_p50_i50_k5_hybrid_20261127_181519
+ root  : E:\多重网络研究\LSTM-MODGWO-dyn-multilayer-CIM\LSTM_MODGWO_Project
+============================================================
+              preset: 'formal'
+            evalMode: 'hybrid'
+                  kA: 5
+                  kB: 5
+                beta: 1
+             rngSeed: 20261127
+        finalCorrect: 1
+    localSearchTries: 3
+     localSearchProb: 0.3500
+          leaderBeta: 4
+        lstmModelRel: '03_LSTM\models\model_lstm_resid_h4.mat'
+                note: 'Default formal hybrid. kA=kB=5 matches residual LSTM training. Do NOT use k~0.05N with current LSTM without retraining.'
+             popSize: 50
+             maxIter: 50
+         archiveSize: 100
+              R_fast: 5
+             R_final: 50
+        correctEvery: 5
+         estPopIters: 2500
+                 tag: 'formal_p50_i50_k5_hybrid'
+         ProjectRoot: 'E:\多重网络研究\LSTM-MODGWO-dyn-multilayer-CIM\LSTM_MODGWO_Project'
+
+MATLAB 9.11.0.1769968 (R2021b) | DeepLearning=1 | Stats=1
+Preflight OK.
+Loaded Network: N=838 L=4 T=28
+Loaded LSTM: E:\多重网络研究\LSTM-MODGWO-dyn-multilayer-CIM\LSTM_MODGWO_Project\03_LSTM\models\model_lstm_resid_h4.mat (residual=1, r=4, feat=28)
+S_B = [101 553 53 477 402]
+Start optimization at 27-Nov-2026 18:15:24
+LSTM-MODGWO start: pop=50 iter=50 k=5 mode=hybrid archive=100
+  iter  10/50 | archive=23 | maxFA=502.88 | minCost=1.521 | eval=1271 | 92.4s
+  iter  20/50 | archive=23 | maxFA=502.88 | minCost=1.521 | eval=2642 | 218.5s
+  iter  30/50 | archive=27 | maxFA=509.96 | minCost=1.521 | eval=4266 | 366.1s
+  iter  40/50 | archive=24 | maxFA=497.89 | minCost=1.521 | eval=5908 | 496.6s
+  iter  50/50 | archive=16 | maxFA=497.89 | minCost=1.521 | eval=7130 | 564.6s
+LSTM-MODGWO done: archive=6 maxFA=371.62 minCost=1.521 (573.3s)
+Optimization wall time: 661.0 s (11.02 min)
+
+=== Formal run finished ===
+archive=6  maxFA=371.6200  minCost=1.5208  meanFA=168.4500
+nEval=7146  wall=661.0s
+MAT : E:\多重网络研究\LSTM-MODGWO-dyn-multilayer-CIM\LSTM_MODGWO_Project\06_Results\logs\stage5_modgwo_formal_p50_i50_k5_hybrid_20261127_181519.mat
+CSV : E:\多重网络研究\LSTM-MODGWO-dyn-multilayer-CIM\LSTM_MODGWO_Project\06_Results\tables\stage5_modgwo_formal_p50_i50_k5_hybrid_20261127_181519_archive.csv
+LOG : E:\多重网络研究\LSTM-MODGWO-dyn-multilayer-CIM\LSTM_MODGWO_Project\06_Results\logs\stage5_modgwo_formal_p50_i50_k5_hybrid_20261127_181519.diary.txt
